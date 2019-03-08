@@ -1,7 +1,6 @@
 <template>
   <section class="container">
-    <h1>Hello, I'm a first Vue/Nuxt app!</h1>
-    <a href="/users"> Users</a>
+    <nuxt-link to="/users">Users</nuxt-link>
   </section>
 </template>
 
